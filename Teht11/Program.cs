@@ -10,7 +10,9 @@ namespace Teht11
     {
         static void Main(string[] args)
         {
-            for (int i = 0; i < 5; i++)
+            Console.Write("Anna luku > ");
+            int luku = int.Parse(Console.ReadLine());
+            for (int i = 0; i < luku; i++)
             {
                 for (int j = 0; j <= i; j++)
                 {
@@ -21,3 +23,4 @@ namespace Teht11
         }
     }
 }
+
